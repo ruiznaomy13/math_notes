@@ -3,7 +3,8 @@
 #show: template.with(
   title: [Calculus Notes],
   author: "Nelly",
+  bibliography: bibliography("refs.bib"),
 )
 
-#include "intro.typ"
+#include "introduction.typ"
 #include "derivatives.typ"
